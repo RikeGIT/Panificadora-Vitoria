@@ -52,8 +52,8 @@
 }
 
 .shape {
-    width: 28%;
-    height: 40%;
+    width: 21rem;
+    height: 20rem;
     top: 40px;
     right: 50px;
     z-index: 1;
@@ -61,16 +61,16 @@
 }
 
 .shape2 {
-    width: 3.2%;
-    height: 5%;
+    width: 2.6rem;
+    height: 2.4rem;
     top: 20px;
     right: 380px;
     border-radius: 100% 100% 100% 100%;
 }
 
 .shape3 {
-    width: 2.6%;
-    height: 4%;
+    width: 2rem;
+    height: 2rem;
     top: 370px;
     right: 240px;
     border-radius: 100% 100% 100% 100%;
