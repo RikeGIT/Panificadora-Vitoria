@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,18 @@
     <link rel="icon" href="images/Logo.jpg" type="image/x-icon">
 
     <!-- JQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
     <!-- Estilos css -->
     <link rel="stylesheet" href="src/styles/style.css">
     <link rel="stylesheet" href="src/styles/navbar.css">
+    <link rel="stylesheet" href="src/styles/home.css">
     <title>Panificadora Vitoria</title>
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -36,10 +41,10 @@
                 </ul>
 
                 <button id="mobile_btn">
-                        <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-bars"></i>
                 </button>
 
-                <button class="btn_default">
+                <button class="btn-default">
                     Peça aqui
                 </button>
             </nav>
@@ -57,13 +62,52 @@
                     </li>
                 </ul>
 
-                <button class="btn_default">
+                <button class="btn-default">
                     Peça aqui
                 </button>
             </div>
         </header>
+
+        <main id="content">
+            <section id="home">
+                <div class="shapes">
+                    <div class="shape"></div>
+                    <div class="shape2"></div>
+                    <div class="shape3"></div>
+                </div>
+                <div id="cta">
+                    <h1 class="title">
+                        Viva o seu momento mais <span>gostoso</span>
+                    </h1>
+
+                    <p class="description">
+                        Há mais de uma década, transformando receitas de família em momentos inesquecíveis.
+                    </p>
+
+                    <div id="cta_buttons">
+                        <a href="#" class="btn-default">Fazer pedido</a>
+                    </div>
+
+                    <div class="social-midia-buttons">
+                        <a href="https://wa.me/5583988092956" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.instagram.com/panificadoravitoriapb" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/panificadoravitoriapb" target="_blank">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+                <div id="banner">
+                    <img src="src/images/home.png" alt="">
+                </div>
+            </section>
+        </main>
     </div>
 
     <script src="src/javascript/script.js"></script>
-</body> 
+</body>
+
 </html>

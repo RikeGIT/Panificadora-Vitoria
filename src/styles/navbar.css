@@ -21,6 +21,7 @@ header {
     font-size: 0.8rem;
     font-weight: 600;
     color: #1d1d1d;
+    line-height: 1.1;
 }
 
 #nav_logo {
@@ -57,7 +58,7 @@ header {
 }
 
 @media  screen and (max-width: 1170px) {
-    #nav_list, #navbar .btn_default {
+    #nav_list, #navbar .btn-default {
         display: none;
     }
     #mobile_btn {

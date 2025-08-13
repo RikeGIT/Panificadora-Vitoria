@@ -1,3 +1,5 @@
+/* Configurações gerais */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap');
 
 * {
@@ -8,7 +10,11 @@
 }
 
 body {
-    background-color: #fff9ea;
+    background-color: #f4f4f4;
+}
+
+section {
+    padding: 28px 8%;
 }
 
 .container {
@@ -17,25 +23,55 @@ body {
     min-height: 100vh;
 }
 
-.btn_default {
+.btn-default {
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
-
     border-radius: 12px;
     padding: 10px 14px;
+
     background: linear-gradient(to bottom, #f6620c, #ff843c, #ff7b00);
-    
     color: #fff9ea;
     font-weight: 600;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 
-    transition: background 0.3s ease, transform 0.3s ease;
+    transition: background 0.4s ease-in-out, transform 0.25s ease, box-shadow 0.4s ease;
 }
 
-.btn_default:hover {
-    background: linear-gradient(to bottom, #d45a14, #e57105, #c34a04);
+.btn-default:hover {
+    background: linear-gradient(to bottom, #ff7b00, #ec9147, #f6620c);
+    transform: scale(1.06);
+    box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.15);
+}
+
+
+.social-midia-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.social-midia-buttons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 40px;
+
+    text-decoration: none;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    color: #1d1d1d;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow .3s ease, transform 0.3s ease-out;
+
+    will-change: transform;
+    transform: translateZ(0);
+}
+
+.social-midia-buttons a:hover {
     transform: scale(1.05);
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
 }
