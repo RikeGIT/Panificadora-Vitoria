@@ -1,6 +1,10 @@
 header {
     width: 100%;
     padding: 28px 8%;
+    /* position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #f4f4f4; Configuração para a header ficar fixa*/
 }
 
 #navbar {
