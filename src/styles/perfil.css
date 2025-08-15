@@ -1,6 +1,7 @@
 #perfil {
     display: flex;
-    align-items: center;
+    align-items: start;
+    margin-top: 3em;
     padding: 28px 8%;
     gap: 144px;
 }
@@ -37,7 +38,11 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 100%;
+    }
+
+    #perfil_text{
+        width: 80%;
+        text-align: center;
     }
 
     #perfil_text .section-title {
