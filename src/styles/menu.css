@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 60vh;
 }
 
 #dishes {
@@ -96,6 +96,7 @@
     .dish {
         width: 90%;
         height: auto;
+        margin-bottom: 1rem;
     }
 
     .dish img {

@@ -1,0 +1,56 @@
+#perfil {
+    display: flex;
+    align-items: center;
+    padding: 28px 8%;
+    gap: 144px;
+}
+
+#perfil_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    width: 60%;
+}
+
+#perfil_text .section-title{
+    color: #1d1d1d;
+}
+
+#perfil_text .description {
+    font-size: 1rem;
+}
+
+#perfil_image {
+    width: 30%;
+    height: 40%;
+}
+
+#perfil_image img{
+    width: 22rem;
+    border-radius: 3em;
+}
+
+@media  screen and (max-width: 1170px) {
+    #perfil {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #perfil_text .section-title {
+        text-align: center;
+        line-height: 0.98;
+    }
+
+    #perfil_text .description {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    #perfil_image {
+        display: none;
+    }
+}
