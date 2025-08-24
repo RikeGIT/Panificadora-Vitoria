@@ -1,11 +1,7 @@
 footer {
     background-color: #EC9147;
-}
-
-#footer_img {
-    width: 150%;
-    height: auto;
-    margin: auto;
+    margin: 0;
+    padding: 0;
 }
 
 #footer_items {

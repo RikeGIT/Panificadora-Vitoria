@@ -66,6 +66,16 @@ header {
     display: none;
 }
 
+#navbar a, #mobile_menu a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link {
+    width: 6rem;
+    height: 2.4rem;
+    font-size: 0.8rem;
+}
 @media  screen and (max-width: 1170px) {
     #nav_list, #navbar .btn-default {
         display: none;
