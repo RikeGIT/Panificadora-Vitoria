@@ -1,12 +1,16 @@
 header {
     width: 100%;
-    padding: 28px 8%;
-    /* position: sticky;
+    position: sticky;
     top: 0;
-    z-index: 1000;
-    background-color: #f4f4f4; Configuração para a header ficar fixa*/
+    z-index: 3;
+    background-color: #f4f4f4;
 }
 
+#header_container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 28px 8%;
+}
 #navbar {
     width: 100%;
     display: flex;
@@ -41,13 +45,14 @@ header {
     gap: 48px;
 }
 
-.nav_item a {
+.nav-item a {
     text-decoration: none;
+    font-size: 0.8em;
     color: #1d1d1dad;
     font-weight: 600;
 }
 
-.nav_item.active a {
+.nav-item.active a {
     color: #1d1d1d;
     padding-bottom: 4px;
     border-bottom: 2px solid #ff7b00;
@@ -87,7 +92,7 @@ header {
         margin: 12px 0;
     }
 
-     #mobile_nav_list .nav_item {
+     #mobile_nav_list .nav-item {
         list-style: none;
         text-align: center;
      }

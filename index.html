@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
     <link rel="icon" href="src/images/Logo.jpg" type="image/x-icon">
+    <script src="https://unpkg.com/scrollreveal"></script>
 
     <!-- JQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
@@ -15,31 +16,28 @@
 
     <!-- Estilos css -->
     <link rel="stylesheet" href="src/styles/style.css">
-    <link rel="stylesheet" href="src/styles/navbar.css">
-    <link rel="stylesheet" href="src/styles/home.css">
-    <link rel="stylesheet" href="src/styles/perfil.css">
-    <link rel="stylesheet" href="src/styles/menu.css">
-    <link rel="stylesheet" href="src/styles/testimonials.css">
-    <link rel="stylesheet" href="src/styles/social-media.css">
     <title>Panificadora Vitoria</title>
 </head>
 
 <body>
-    <div class="container">
-        <header>
+    <header>
+        <div id="header_container">
             <nav id="navbar">
                 <div id="div_logo">
                     <i class="fas fa-cookie-bite" id="nav_logo"></i>
                     <p>Panificadora<br>Vitoria</p>
                 </div>
                 <ul id="nav_list">
-                    <li class="nav_item active">
+                    <li class="nav-item active">
                         <a href="#home">Inicio</a>
                     </li>
-                    <li class="nav_item">
+                    <li class="nav-item">
+                        <a href="#perfil">Sobre</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="#menu">Cardápio</a>
                     </li>
-                    <li class="nav_item">
+                    <li class="nav-item">
                         <a href="#testimonials">Avaliações</a>
                     </li>
                 </ul>
@@ -55,13 +53,16 @@
 
             <div id="mobile_menu">
                 <ul id="mobile_nav_list">
-                    <li class="nav_item">
+                    <li class="nav-item">
                         <a href="#home">Inicio</a>
                     </li>
-                    <li class="nav_item">
+                    <li class="nav-item">
+                        <a href="#perfil">Sobre</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="#menu">Cardápio</a>
                     </li>
-                    <li class="nav_item">
+                    <li class="nav-item">
                         <a href="#testimonials">Avaliações</a>
                     </li>
                 </ul>
@@ -70,11 +71,13 @@
                     Peça aqui
                 </button>
             </div>
-        </header>
+        </div>
+    </header>
+    <div class="container">
 
         <main id="content">
             <section id="home">
-                <div class="shapes">
+                <div id="shapes">
                     <div class="shape"></div>
                     <div class="shape2"></div>
                     <div class="shape3"></div>
@@ -344,7 +347,25 @@
             </section>
         </main>
     </div>
-
+    <footer>
+        <img src="src/images/wave.svg" alt="" id="footer_img">
+        <div id="footer_items">
+            <span id="copyright">
+                &copy; 2025 Sol e lua agência
+            </span>
+            <div class="social-midia-buttons">
+                <a href="https://wa.me/5583988092956" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/panificadoravitoriapb" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/panificadoravitoriapb" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
     <script src="src/javascript/script.js"></script>
 </body>
 

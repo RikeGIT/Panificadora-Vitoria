@@ -1,8 +1,9 @@
 #home {
     display: flex;
     position: relative;
-    margin-top: 1rem;
-    min-height: calc(80vh - 101.59px);
+    margin-top: 3rem;
+    min-height: calc(85vh - 101.59px);
+    scroll-margin-top: 96px;
 }
 
 #cta {
@@ -49,7 +50,6 @@
 #banner img {
     width: 20em;
     height: 20em;
-    animation: slideInRight 1s ease-out forwards;
 }
 
 .shape {
@@ -85,26 +85,17 @@
 
 }
 
-@keyframes slideInRight {
-    0% {
-        transform: translateX(100%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
 @media  screen and (max-width: 1170px) {
     #home {
-        min-height: 100%;
+        min-height: calc(85vh - 101.59px);
+        justify-content: center;
+        align-items: center;
         padding-top: 0px;
     }
 
     #banner,
     #banner img,
-    #home .shapes {
+    #home #shapes {
         display: none;
     }
 
