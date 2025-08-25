@@ -1,4 +1,4 @@
-# Panificadora Vitoria Landing Page 🥐🍞
+# Panificadora Vitoria Landing Page 🍞
 
 Este projeto é uma landing page estática desenvolvida para a **Panificadora Vitória**, uma padaria em Patos, Paraíba. O objetivo é servir como uma vitrine digital para a empresa, apresentando sua história, cardápio, depoimentos de clientes e canais de contato online.
 
