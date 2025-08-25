@@ -32,9 +32,6 @@ $(document).ready(function() {
         navItems.removeClass('active');
         $(navItems[activeSectionIndex]).addClass('active');
     });
-
-    window.onload = function() {
-        if (window.innerWidth >= 768) {
         ScrollReveal().reveal('#cta', {
             origin: 'left',
             duration: 2000,
@@ -81,7 +78,6 @@ $(document).ready(function() {
             origin: 'left',
             duration: 2000,
             distance: '20%'
-        });
+        })
     }
-    }
-});
+);
